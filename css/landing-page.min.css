@@ -1,17 +1,17 @@
 body {
-  font-family: 'Noto Sans','Noto Sans TC','Noto Sans SC','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Noto Sans','Noto Sans TC','Noto Sans SC','Lato','Microsoft JhengHei','Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 h1,
 h2,
 h3 {
-  font-family: 'Noto Sans','Noto Sans TC','Noto Sans SC','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans','Noto Sans TC','Noto Sans SC','Lato','Microsoft JhengHei','Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
   color: #5b5b5b; }
 
 h4,
 h5,
 h6 {
-  font-family: 'Noto Sans','Noto Sans TC','Noto Sans SC','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans','Noto Sans TC','Noto Sans SC','Lato','Microsoft JhengHei','Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #5b5b5b; }
 
@@ -35,12 +35,19 @@ header.masthead {
     opacity: 0.1; }
   header.masthead h1 {
     font-size: 2rem; }
+  header.masthead .hands {
+    display: none; }
   @media (min-width: 768px) {
     header.masthead {
       padding-top: 12rem;
       padding-bottom: 12rem; }
       header.masthead h1 {
         font-size: 3rem; } }
+  @media (max-width: 575.98px) {
+    header.masthead .hand {
+      display: none; }
+    header.masthead .hands {
+      display: block; } }
 
 .header-cover {
   position: relative;
