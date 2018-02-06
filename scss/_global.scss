@@ -1,0 +1,21 @@
+body {
+  @include body-font;
+}
+
+h1,
+h2,
+h3,
+ {
+  @include body-font;
+  font-weight: 600;
+  color: #5b5b5b;
+}
+
+h4,
+h5,
+h6
+	{
+	@include body-font;
+	  font-weight: 400;
+	  color: #5b5b5b;		
+	}

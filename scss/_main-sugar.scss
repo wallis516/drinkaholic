@@ -1,0 +1,69 @@
+
+.section-title {
+	padding-bottom: 10px;
+}
+.section-sub-title {
+	padding-bottom: 30px;
+}
+
+.sugar-item {
+	display: block;
+	margin: 20px;
+}
+
+.tag {
+	text-align: center;
+	padding: 3px 5px;
+	margin: 5px 3px;
+}
+
+.sugar-ruler {
+	padding: 20px 0px;
+}
+.name {
+	display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100px;
+}
+
+
+.color-mark {
+	display:inline-block;
+	text-align: left;
+}
+.circle {
+	display:inline-block;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px; 
+	margin: 0 auto;
+}
+
+.sub-title {
+	color: #686868;
+}
+.ps-text {
+	padding: 20px;
+	color: #686868;
+}
+
+.canvas{
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        text-align: center;
+    }
+
+.back-color {
+	background-color: #fff8e2;
+}
+.data {
+	line-height: 1.5;
+	font-weight: 200;
+}
+.data-link {
+	color: #969696;
+}
+
+
